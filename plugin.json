@@ -1,0 +1,19 @@
+{
+    "name": "GeoMapGL",
+    "source": [
+        "countriesGeo.js",
+        "config.js",
+        "stylerController.js",
+        "mapbox-gl.js",
+        "GeoMap.js",
+        "widget.js"
+    ],
+    "style": [
+        "mapbox-gl.css",
+        "widget.css"
+    ],
+    "folderName": "GeoMapGL",
+    "lastUpdate": "2020-08-11T18:47:02.931Z",
+    "isEnabled": true,
+    "version": "1.0.0"
+}

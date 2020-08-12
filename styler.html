@@ -1,0 +1,19 @@
+<div data-ng-controller="plugin-GeoMapGL.controllers.stylerController">
+    <!-- Base map selection -->
+    <div class="settings-pane-host">
+        <div class="pane-row">
+            <div class="pane-row-title">Basemap</div>
+            <div class="type-holder">
+                <div data-ng-repeat="option in basemapOptions"
+                     data-ng-class="{ selected: model.baseMap == option.value }"
+                     data-ng-click="changeBasemap(option)"
+                     class="radio-option-item">
+                    <div class="custom-radio-btn"
+                         data-ng-class="{ selected: model.baseMap == option.value }"></div>
+                    <div class="radio-option-separator"></div>
+                    <div class="radio-option-caption">{{option.key}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
